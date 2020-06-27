@@ -8,11 +8,11 @@ import Checkbox from '@material-ui/core/Checkbox';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
+import Link from 'next/link';
 import React from 'react';
 
 import signupImage from '../../assets/02.png';
@@ -131,8 +131,8 @@ const SignUp: React.FC = () => {
             </Button>
             <Grid container>
               <Grid item>
-                <Link href="#" variant="body2">
-                  Já tem conta? Entre
+                <Link href="/signin">
+                  <a>Já tem conta? Entre</a>
                 </Link>
               </Grid>
             </Grid>

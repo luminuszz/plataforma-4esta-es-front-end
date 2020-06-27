@@ -7,11 +7,11 @@ import Checkbox from '@material-ui/core/Checkbox';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
+import Link from 'next/link';
 import React from 'react';
 
 import siginImage from '../../assets/01.png';
@@ -109,8 +109,8 @@ const SignIn: React.FC = () => {
             </Button>
             <Grid container>
               <Grid item>
-                <Link href="#" variant="body2">
-                  Não tem conta? cadastre-se
+                <Link href="/signup">
+                  <a>Não tem conta? cadastre-se</a>
                 </Link>
               </Grid>
             </Grid>
