@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 import React from 'react';
 
 import logo from '../../assets/photo.png';
-import { useStyles } from './styles';
+import { useStyles } from './_styles';
 
 const SignIn: React.FC = () => {
   const classes = useStyles();
