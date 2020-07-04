@@ -1,8 +1,11 @@
 /* eslint-disable import/no-unresolved */
+
 import React from 'react';
 
+import SignIn from './signin';
+
 const Home: React.FC = () => {
-  return <div className="container" />;
+  return <SignIn />;
 };
 
 export default Home;
